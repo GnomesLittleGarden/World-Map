@@ -33,9 +33,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     });
   
   const customIcons = {
-    crow:    makeIcon("crow.png"),
-    nature:  makeIcon("nature.png"),
-    default: makeIcon("default.png"),
+    crow:    makeIcon("assets/icons/crow.png"),
+    nature:  makeIcon("assets/icons/nature.png"),
+    default: makeIcon("assets/icons/default.png"),
   };
   const layers = { crow: L.layerGroup(), nature: L.layerGroup() };
   // in spots.forEach -> add marker to layers[type].addLayer(marker)
