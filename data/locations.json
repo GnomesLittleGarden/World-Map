@@ -1,0 +1,16 @@
+[
+    {
+      "name": "The Feathered Tribunal",
+      "lat": 53.545,
+      "lng": -113.506,
+      "type": "crow",
+      "lore": "Three black‑winged judges watch this alley. Leave a shiny offering to earn safe passage."
+    },
+    {
+      "name": "Stump of Echoes",
+      "lat": 53.5412,
+      "lng": -113.4889,
+      "type": "nature",
+      "lore": "Strike the stump and listen—every knock returns a whisper of the forest."
+    }
+  ]
