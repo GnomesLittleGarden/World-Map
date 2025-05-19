@@ -9,12 +9,12 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   /* 3.  icon helpers  */
   const makeIcon = (fname) =>
-    L.icon({
-      iconUrl: `icons/${fname}`,
-      iconSize: [32, 32],
-      iconAnchor: [16, 32],
-      popupAnchor: [0, -28],
-    });
+  L.icon({
+    iconUrl: `./icons/${fname}`,   // ← the './' makes it unambiguous
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -28],
+  });
 
   const customIcons = {
     crow:    makeIcon("crow.png"),
