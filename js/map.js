@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   /* 3.  icon helpers  */
   const makeIcon = (fname) =>
     L.icon({
-      iconUrl: `assets/icons/${fname}`,
+      iconUrl: `icons/${fname}`,
       iconSize: [32, 32],
       iconAnchor: [16, 32],
       popupAnchor: [0, -28],
